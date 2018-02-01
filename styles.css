@@ -1,0 +1,101 @@
+<style>
+  .parallax {
+    /* The image used */
+    background-image: url('https://wallpapercave.com/wp/GmIk0Cb.jpg');
+
+    /* Full height */
+    height: 100%; 
+ 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    ul {
+    padding: 4%;
+    background: rgba(81, 145, 144, 0.31);
+}
+
+#c1, #c2, #c3 {
+    width: 33%; // 1/3 of 100%
+}
+
+.container {
+    position: relative;
+    font-family: Arial;
+}
+
+
+*{
+    margin:0; 
+    padding:0;
+}
+
+#wrapper{
+    display:-webkit-flex;
+    -webkit-justify-content:center;
+
+    display:flex;
+    justify-content:center;
+
+}
+
+#wrapper div{
+    -webkit-flex:1;
+    flex:1;
+    border:thin solid #777;
+
+}
+
+.text-block {
+    position: absolute;
+    top: 34%;
+    right: 10px;
+    background-color: rgba(0, 83, 145, 0.47);
+    color: #f0f2f4;
+    padding: 5%;
+    width: 94%;
+}
+    
+    li{
+    	color: #fff;
+    	list-style: none;
+    }
+    
+    
+    body{
+    	color: #fff;
+    }
+    .main{
+    display:inline;
+}
+.w3-black, .w3-hover-black:hover {
+    color: #fff!important;
+    background-color: rgba(30, 117, 163, 0.55)!important;
+}
+    
+    .w3-white, .w3-hover-white:hover {
+    color: #02eeff!important;
+    background-color: rgba(0, 0, 0, 0)!important;
+    
+    
+    
+    .transition { 
+    background-image: url('https://www.westelm.com/weimgs/rk/images/wcm/products/201750/0028/blurred-lines-duvet-cover-shams-1-m.jpg');
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 6s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 6s;
+    }
+    @keyframes example {
+    0%   {background-image: url('https://www.westelm.com/weimgs/rk/images/wcm/products/201750/0028/blurred-lines-duvet-cover-shams-1-m.jpg');}
+    25%  {background-image: url('https://www.westelm.com/weimgs/rk/images/wcm/products/201801/0004/tencel-aurora-duvet-cover-shams-light-pool-m.jpg');}
+    50%  {background-image: url('https://www.westelm.com/weimgs/rk/images/wcm/products/201748/0002/belgian-flax-linen-fiber-dyed-duvet-cover-shams-light-pool-m.jpg');}
+    100% {background-image: url('https://www.westelm.com/weimgs/rk/images/wcm/products/201802/0010/organic-washed-cotton-stripe-duvet-cover-shams-kyoto-blue-m.jpg');}
+}
+}
+}
+    
+  </style>
